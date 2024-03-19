@@ -33,7 +33,7 @@ def strings_ranked_by_relatedness(
     strings, relatednesses = zip(*strings_and_relatednesses)
     return strings[:top_n], relatednesses[:top_n]
 
-embeddings_path = "business_rules.csv"
+embeddings_path = "embeddings_in_csv/business_rules.csv"
 
 df = pd.read_csv(embeddings_path)
 # convert embeddings from CSV str type back to list type
