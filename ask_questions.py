@@ -1,6 +1,7 @@
 # imports
 import ast  # for converting embeddings saved as strings back to arrays
-from openai_client import client
+# from client.openai_client import client
+from client.openai_client import client
 import pandas as pd  # for storing text and embeddings data
 import tiktoken  # for counting tokens
 from scipy import spatial  # for calculating vector similarities for search
@@ -8,7 +9,7 @@ import os
 
 # models
 EMBEDDING_MODEL = os.environ.get("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
-GPT_MODEL = os.environ.get("OPENAI_GPT_MODEL", "gpt-3.5-turbo")
+GPT_MODEL = os.environ.get("OPENAI_GPT_MODEL", "gpt-35-turbo")
 PRINT_QUESTION_AND_RULES = os.environ.get("PRINT_QUESTION_AND_RULES", "False").lower() in ['true', '1', 't', 'y', 'yes']
 
 
@@ -40,7 +41,7 @@ df = pd.read_csv(embeddings_path)
 df['embedding'] = df['embedding'].apply(ast.literal_eval)
 
 
-# examples
+# example of showing relatedness
 # strings, relatednesses = strings_ranked_by_relatedness("redhead people", df, top_n=5)
 # for string, relatedness in zip(strings, relatednesses):
 #     print(f"{relatedness=:.3f}")

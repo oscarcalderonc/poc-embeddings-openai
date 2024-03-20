@@ -2,8 +2,8 @@
 Business name: Some Pizzeria name
 Address: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500
 State of Incorporation: SOUTH CAROLINA
-Date of Incorporation: 2018-12-12
-Number of Employees: 10 TO 19
+Date of Incorporation: 2008-12-12
+Number of Employees: 11 TO 19
 Registered Agent: SCOTT 
 Web Address: www.somepizzerianame.com
 
@@ -23,4 +23,7 @@ DISTRICT COURT,FELONY,CATAWBA,1234CR 005678,CRIMINAL,CASE DISPOSED
 DISTRICT COURT,MALPRAXYS,IREDELL,2024CR 087654,CRIMINAL,CASE DISPOSED
 
 
---General Information--\nBusiness name: Some Pizzeria name\nAddress: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500\nState of Incorporation: SOUTH CAROLINA\nDate of Incorporation: 2018-12-12\nNumber of Employees: 10 TO 19\nRegistered Agent: SCOTT \nWeb Address: www.somepizzerianame.com\n\n--Associate Analytics Chart--\n\nAssociates,Address,Address Type,Type of Association,Global Sanctions?,OFAC?,Arrest Records?,Criminal Records?,Bankruptcy?\nJohn Doe,-,Unassigned,Shared Phone Number,1,No,No,No,No,No\nJohanna Doe,-,Unassigned,Possible Relationship,1,No,No,No,No,No\n\n--Phone Numbers--\n1. VILLAGE PIZZA OF NAGS HEAD LLC\nPhone is (252) 123-1234\n\n--Criminal Records--\nCourt Name,Charges Filed,Court County,Case Number,Case Type,Disposition of Findings\nDISTRICT COURT,FELONY,CATAWBA,1234CR 005678,CRIMINAL,CASE DISPOSED\nDISTRICT COURT,MALPRAXYS,IREDELL,2024CR 087654,CRIMINAL,CASE DISPOSED
+--General Information--\nBusiness name: Some Pizzeria name\nAddress: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500\nState of Incorporation: SOUTH CAROLINA\nDate of Incorporation: 2008-12-12\nNumber of Employees: 11 TO 19\nRegistered Agent: SCOTT \nWeb Address: www.somepizzerianame.com\n\n--Associate Analytics Chart--\n\nAssociates,Address,Address Type,Type of Association,Global Sanctions?,OFAC?,Arrest Records?,Criminal Records?,Bankruptcy?\nJohn Doe,-,Unassigned,Shared Phone Number,1,No,No,No,No,No\nJohanna Doe,-,Unassigned,Possible Relationship,1,No,No,No,No,No\n\n--Phone Numbers--\n1. VILLAGE PIZZA OF NAGS HEAD LLC\nPhone is (252) 123-1234\n\n--Criminal Records--\nCourt Name,Charges Filed,Court County,Case Number,Case Type,Disposition of Findings\nDISTRICT COURT,FELONY,CATAWBA,1234CR 005678,CRIMINAL,CASE DISPOSED\nDISTRICT COURT,MALPRAXYS,IREDELL,2024CR 087654,CRIMINAL,CASE DISPOSED
+
+
+based on the following input, do you recommend granting a loan to the business with the following crime report?
