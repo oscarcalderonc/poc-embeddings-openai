@@ -1,0 +1,5 @@
+based on the information of the CLEAR Report below, do you recommend granting a loan to the business?
+please answer a Yes or No. If the answer is a No, detail the reasons why not, by sharing the relevant piece of information
+from the report that supports your recommendation, including the exact text coming from the CLEAR report as a reference.
+Also, you should evaluate all the conditions, even if a single one is a No, evaluate the other conditions and always list 
+all of the conditions that led to disqualifying the company to get a loan.

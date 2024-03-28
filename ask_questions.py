@@ -6,6 +6,7 @@ import pandas as pd  # for storing text and embeddings data
 import tiktoken  # for counting tokens
 from scipy import spatial  # for calculating vector similarities for search
 import os
+import json
 
 # models
 EMBEDDING_MODEL = os.environ.get("OPENAI_EMBEDDING_MODEL", "text-embedding-3-small")
@@ -34,12 +35,27 @@ def strings_ranked_by_relatedness(
     strings, relatednesses = zip(*strings_and_relatednesses)
     return strings[:top_n], relatednesses[:top_n]
 
-embeddings_path = "embeddings_in_csv/business_rules.csv"
-
-df = pd.read_csv(embeddings_path)
+# embeddings_path = "embeddings_data_in_csv/business_rules.csv"
+# df = pd.read_csv(embeddings_path)
 # convert embeddings from CSV str type back to list type
-df['embedding'] = df['embedding'].apply(ast.literal_eval)
+# df['embedding'] = df['embedding'].apply(ast.literal_eval)
 
+# Read the lines from the JSON file
+with open("raw_embeddings/business_rules_embedding.json", "r") as file:
+    lines = file.readlines()
+
+# Initialize empty lists to store parsed data
+texts = []
+embeddings = []
+
+# Parse each line as a JSON object
+for line in lines:
+    data = json.loads(line)
+    texts.append(data["text"])
+    embeddings.append(data["embedding"])
+
+# Create a DataFrame with "text" and "embedding" columns
+df = pd.DataFrame({"text": texts, "embedding": embeddings})
 
 # example of showing relatedness
 # strings, relatednesses = strings_ranked_by_relatedness("redhead people", df, top_n=5)

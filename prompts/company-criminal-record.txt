@@ -1,3 +1,12 @@
+
+
+--Associate Analytics Chart--
+
+Associates,Address,Address Type,Type of Association,Global Sanctions?,OFAC?,Arrest Records?,Criminal Records?,Bankruptcy?
+John Doe,-,Unassigned,Shared Phone Number,1,No,No,No,No,No
+Johanna Doe,-,Unassigned,Possible Relationship,1,No,No,No,No,No
+
+
 --General Information--
 Business name: Some Pizzeria name
 Address: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500
@@ -6,24 +15,37 @@ Date of Incorporation: 2008-12-12
 Number of Employees: 11 TO 19
 Registered Agent: SCOTT 
 Web Address: www.somepizzerianame.com
-
---Associate Analytics Chart--
-
-Associates,Address,Address Type,Type of Association,Global Sanctions?,OFAC?,Arrest Records?,Criminal Records?,Bankruptcy?
-John Doe,-,Unassigned,Shared Phone Number,1,No,No,No,No,No
-Johanna Doe,-,Unassigned,Possible Relationship,1,No,No,No,No,No
-
---Phone Numbers--
-1. VILLAGE PIZZA OF NAGS HEAD LLC
-Phone is (252) 123-1234
-
 --Criminal Records--
-Court Name,Charges Filed,Court County,Case Number,Case Type,Disposition of Findings
-DISTRICT COURT,FELONY,CATAWBA,1234CR 005678,CRIMINAL,CASE DISPOSED
-DISTRICT COURT,MALPRAXYS,IREDELL,2024CR 087654,CRIMINAL,CASE DISPOSED
+- Onwer name: juan perez
+    DOB: 01/01/2000
+    Source State: CA
+    - Offense 1
+        - COURT & TRIAL INFORMATION
+            Case number: 12345
+            Charges Filling Date: 01/01/2000
+            Case Status: CLOSED
+            Statute Violated: SOMETHING
+            Case Type: CITATION
+            Initial Criminal Offense: NOT SPECIFIED
+            Class/Severity of Crime: MISDEMEANOR
+            Date of Crime: 01/01/2000
+            Offense Location: ORANGE
+            Disposition/Judgment Date: 01/01/2000
+            Disposition of Findings: GUILTY
+            County Jurisdiction: ORANGE
+            Plea: GUILTY
+--Bankruptcy Records--
+- RECORD 1
+    FILING TYPE: BANKRUPTCY
+    FILING DATE: 01/01/2000
+
+    - CASE INFORMATION
+        Case Type: BANKRUPTCY
+        Discharge Date: 01/01/2000
+    - DEBTOR INFORMATION
+        Debtor Name: juan perez
+    - TRUSTEE INFORMATION
 
 
---General Information--\nBusiness name: Some Pizzeria name\nAddress: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500\nState of Incorporation: SOUTH CAROLINA\nDate of Incorporation: 2008-12-12\nNumber of Employees: 11 TO 19\nRegistered Agent: SCOTT \nWeb Address: www.somepizzerianame.com\n\n--Associate Analytics Chart--\n\nAssociates,Address,Address Type,Type of Association,Global Sanctions?,OFAC?,Arrest Records?,Criminal Records?,Bankruptcy?\nJohn Doe,-,Unassigned,Shared Phone Number,1,No,No,No,No,No\nJohanna Doe,-,Unassigned,Possible Relationship,1,No,No,No,No,No\n\n--Phone Numbers--\n1. VILLAGE PIZZA OF NAGS HEAD LLC\nPhone is (252) 123-1234\n\n--Criminal Records--\nCourt Name,Charges Filed,Court County,Case Number,Case Type,Disposition of Findings\nDISTRICT COURT,FELONY,CATAWBA,1234CR 005678,CRIMINAL,CASE DISPOSED\nDISTRICT COURT,MALPRAXYS,IREDELL,2024CR 087654,CRIMINAL,CASE DISPOSED
+based on the following input, do you recommend granting a loan to the business with the following crime report? --General Information--\nBusiness name: Some Pizzeria name\nAddress: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500\nState of Incorporation: SOUTH CAROLINA\nDate of Incorporation: 2008-12-12\nNumber of Employees: 11 TO 19\nRegistered Agent: SCOTT\nWeb Address: www.somepizzerianame.com\n\n--Criminal Records--\n- Onwer name: juan perez\n    DOB: 01/01/2000\n    Source State: CA\n    - Offense 1\n        - COURT & TRIAL INFORMATION\n            Case number: 12345\n            Charges Filling Date: 01/01/2000\n            Case Status: CLOSED\n            Statute Violated: SOMETHING\n            Case Type: CITATION\n            Initial Criminal Offense: NOT SPECIFIED\n            Class/Severity of Crime: MISDEMEANOR\n            Date of Crime: 01/01/2000\n            Offense Location: ORANGE\n            Disposition/Judgment Date: 01/01/2000\n            Disposition of Findings: GUILTY\n            County Jurisdiction: ORANGE\n            Plea: GUILTY\n\n--Bankruptcy Records--\n- RECORD 1\n    FILING TYPE: BANKRUPTCY\n    FILING DATE: 01/01/2000\n\n    - CASE INFORMATION\n        Case Type: BANKRUPTCY\n        Discharge Date: 01/01/2000\n\n    - DEBTOR INFORMATION\n        Debtor Name: juan perez\n\n    - TRUSTEE INFORMATION
 
-
-based on the following input, do you recommend granting a loan to the business with the following crime report?

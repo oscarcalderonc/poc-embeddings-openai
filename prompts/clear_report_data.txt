@@ -1,0 +1,38 @@
+--General Information--
+Business name: Some Pizzeria name
+Address: 5205 S SOMETHING HWY NAGS HEAD, NC 33126-9500
+State of Incorporation: SOUTH CAROLINA
+Date of Incorporation: 2008-12-12
+Number of Employees: 11 TO 19
+Registered Agent: SCOTT 
+Web Address: www.somepizzerianame.com
+--Criminal Records--
+- Onwer name: juan perez
+    DOB: 01/01/2000
+    Source State: CA
+    - Offense 1
+        - COURT & TRIAL INFORMATION
+            Case number: 12345
+            Charges Filling Date: 01/01/2000
+            Case Status: CLOSED
+            Statute Violated: SOMETHING
+            Case Type: CITATION
+            Initial Criminal Offense: NOT SPECIFIED
+            Class/Severity of Crime: MISDEMEANOR
+            Date of Crime: 01/01/2000
+            Offense Location: ORANGE
+            Disposition/Judgment Date: 01/01/2000
+            Disposition of Findings: GUILTY
+            County Jurisdiction: ORANGE
+            Plea: GUILTY
+--Bankruptcy Records--
+- RECORD 1
+    FILING TYPE: BANKRUPTCY
+    FILING DATE: 01/01/2000
+
+    - CASE INFORMATION
+        Case Type: BANKRUPTCY
+        Discharge Date: 01/01/2000
+    - DEBTOR INFORMATION
+        Debtor Name: juan perez
+    - TRUSTEE INFORMATION
